@@ -1,0 +1,59 @@
+g++ -c -pthread -Wall -Wextra -Wno-sign-compare -Wno-invalid-offsetof -Wno-unused-parameter -Wformat -Wformat-security -g -DBOOST_SPIRIT_THREADSAFE -I/root/cointemplate/kmc/src -I/root/cointemplate/kmc/src/obj -DUSE_UPNP=0 -DHAVE_BUILD_INFO -fno-stack-protector -fstack-protector-all -Wstack-protector -Wl,-z,relro -Wl,-z,now -D_FORTIFY_SOURCE=2 -O2 -MMD -o obj/scanbalance.o scanbalance.cpp
+/bin/sh ../share/genbuild.sh obj/build.h
+fatal: Not a git repository (or any of the parent directories): .git
+g++ -c -pthread -Wall -Wextra -Wno-sign-compare -Wno-invalid-offsetof -Wno-unused-parameter -Wformat -Wformat-security -g -DBOOST_SPIRIT_THREADSAFE -I/root/cointemplate/kmc/src -I/root/cointemplate/kmc/src/obj -DUSE_UPNP=0 -DHAVE_BUILD_INFO -fno-stack-protector -fstack-protector-all -Wstack-protector -Wl,-z,relro -Wl,-z,now -D_FORTIFY_SOURCE=2 -O2 -MMD -o obj/checkpoints.o checkpoints.cpp
+g++ -c -pthread -Wall -Wextra -Wno-sign-compare -Wno-invalid-offsetof -Wno-unused-parameter -Wformat -Wformat-security -g -DBOOST_SPIRIT_THREADSAFE -I/root/cointemplate/kmc/src -I/root/cointemplate/kmc/src/obj -DUSE_UPNP=0 -DHAVE_BUILD_INFO -fno-stack-protector -fstack-protector-all -Wstack-protector -Wl,-z,relro -Wl,-z,now -D_FORTIFY_SOURCE=2 -O2 -MMD -o obj/netbase.o netbase.cpp
+g++ -c -pthread -Wall -Wextra -Wno-sign-compare -Wno-invalid-offsetof -Wno-unused-parameter -Wformat -Wformat-security -g -DBOOST_SPIRIT_THREADSAFE -I/root/cointemplate/kmc/src -I/root/cointemplate/kmc/src/obj -DUSE_UPNP=0 -DHAVE_BUILD_INFO -fno-stack-protector -fstack-protector-all -Wstack-protector -Wl,-z,relro -Wl,-z,now -D_FORTIFY_SOURCE=2 -O2 -MMD -o obj/addrman.o addrman.cpp
+g++ -c -pthread -Wall -Wextra -Wno-sign-compare -Wno-invalid-offsetof -Wno-unused-parameter -Wformat -Wformat-security -g -DBOOST_SPIRIT_THREADSAFE -I/root/cointemplate/kmc/src -I/root/cointemplate/kmc/src/obj -DUSE_UPNP=0 -DHAVE_BUILD_INFO -fno-stack-protector -fstack-protector-all -Wstack-protector -Wl,-z,relro -Wl,-z,now -D_FORTIFY_SOURCE=2 -O2 -MMD -o obj/crypter.o crypter.cpp
+g++ -c -pthread -Wall -Wextra -Wno-sign-compare -Wno-invalid-offsetof -Wno-unused-parameter -Wformat -Wformat-security -g -DBOOST_SPIRIT_THREADSAFE -I/root/cointemplate/kmc/src -I/root/cointemplate/kmc/src/obj -DUSE_UPNP=0 -DHAVE_BUILD_INFO -fno-stack-protector -fstack-protector-all -Wstack-protector -Wl,-z,relro -Wl,-z,now -D_FORTIFY_SOURCE=2 -O2 -MMD -o obj/key.o key.cpp
+g++ -c -pthread -Wall -Wextra -Wno-sign-compare -Wno-invalid-offsetof -Wno-unused-parameter -Wformat -Wformat-security -g -DBOOST_SPIRIT_THREADSAFE -I/root/cointemplate/kmc/src -I/root/cointemplate/kmc/src/obj -DUSE_UPNP=0 -DHAVE_BUILD_INFO -fno-stack-protector -fstack-protector-all -Wstack-protector -Wl,-z,relro -Wl,-z,now -D_FORTIFY_SOURCE=2 -O2 -MMD -o obj/db.o db.cpp
+g++ -c -pthread -Wall -Wextra -Wno-sign-compare -Wno-invalid-offsetof -Wno-unused-parameter -Wformat -Wformat-security -g -DBOOST_SPIRIT_THREADSAFE -I/root/cointemplate/kmc/src -I/root/cointemplate/kmc/src/obj -DUSE_UPNP=0 -DHAVE_BUILD_INFO -fno-stack-protector -fstack-protector-all -Wstack-protector -Wl,-z,relro -Wl,-z,now -D_FORTIFY_SOURCE=2 -O2 -MMD -o obj/init.o init.cpp
+In file included from bitcoinrpc.h:15:0,
+                 from init.cpp:9:
+json/json_spirit_writer_template.h: In function ‘String_type json_spirit::non_printable_to_string(unsigned int)’:
+json/json_spirit_writer_template.h:31:50: warning: typedef ‘Char_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename String_type::value_type Char_type;
+                                                  ^
+g++ -c -pthread -Wall -Wextra -Wno-sign-compare -Wno-invalid-offsetof -Wno-unused-parameter -Wformat -Wformat-security -g -DBOOST_SPIRIT_THREADSAFE -I/root/cointemplate/kmc/src -I/root/cointemplate/kmc/src/obj -DUSE_UPNP=0 -DHAVE_BUILD_INFO -fno-stack-protector -fstack-protector-all -Wstack-protector -Wl,-z,relro -Wl,-z,now -D_FORTIFY_SOURCE=2 -O2 -MMD -o obj/irc.o irc.cpp
+g++ -c -pthread -Wall -Wextra -Wno-sign-compare -Wno-invalid-offsetof -Wno-unused-parameter -Wformat -Wformat-security -g -DBOOST_SPIRIT_THREADSAFE -I/root/cointemplate/kmc/src -I/root/cointemplate/kmc/src/obj -DUSE_UPNP=0 -DHAVE_BUILD_INFO -fno-stack-protector -fstack-protector-all -Wstack-protector -Wl,-z,relro -Wl,-z,now -D_FORTIFY_SOURCE=2 -O2 -MMD -o obj/keystore.o keystore.cpp
+g++ -c -pthread -Wall -Wextra -Wno-sign-compare -Wno-invalid-offsetof -Wno-unused-parameter -Wformat -Wformat-security -g -DBOOST_SPIRIT_THREADSAFE -I/root/cointemplate/kmc/src -I/root/cointemplate/kmc/src/obj -DUSE_UPNP=0 -DHAVE_BUILD_INFO -fno-stack-protector -fstack-protector-all -Wstack-protector -Wl,-z,relro -Wl,-z,now -D_FORTIFY_SOURCE=2 -O2 -MMD -o obj/main.o main.cpp
+main.cpp: In function ‘void BitcoinMiner(CWallet*, bool)’:
+main.cpp:4089:22: warning: unused variable ‘nLastBlockTime’ [-Wunused-variable]
+         static int64 nLastBlockTime = 0;
+                      ^
+g++ -c -pthread -Wall -Wextra -Wno-sign-compare -Wno-invalid-offsetof -Wno-unused-parameter -Wformat -Wformat-security -g -DBOOST_SPIRIT_THREADSAFE -I/root/cointemplate/kmc/src -I/root/cointemplate/kmc/src/obj -DUSE_UPNP=0 -DHAVE_BUILD_INFO -fno-stack-protector -fstack-protector-all -Wstack-protector -Wl,-z,relro -Wl,-z,now -D_FORTIFY_SOURCE=2 -O2 -MMD -o obj/net.o net.cpp
+g++ -c -pthread -Wall -Wextra -Wno-sign-compare -Wno-invalid-offsetof -Wno-unused-parameter -Wformat -Wformat-security -g -DBOOST_SPIRIT_THREADSAFE -I/root/cointemplate/kmc/src -I/root/cointemplate/kmc/src/obj -DUSE_UPNP=0 -DHAVE_BUILD_INFO -fno-stack-protector -fstack-protector-all -Wstack-protector -Wl,-z,relro -Wl,-z,now -D_FORTIFY_SOURCE=2 -O2 -MMD -o obj/protocol.o protocol.cpp
+g++ -c -pthread -Wall -Wextra -Wno-sign-compare -Wno-invalid-offsetof -Wno-unused-parameter -Wformat -Wformat-security -g -DBOOST_SPIRIT_THREADSAFE -I/root/cointemplate/kmc/src -I/root/cointemplate/kmc/src/obj -DUSE_UPNP=0 -DHAVE_BUILD_INFO -fno-stack-protector -fstack-protector-all -Wstack-protector -Wl,-z,relro -Wl,-z,now -D_FORTIFY_SOURCE=2 -O2 -MMD -o obj/bitcoinrpc.o bitcoinrpc.cpp
+In file included from bitcoinrpc.h:15:0,
+                 from bitcoinrpc.cpp:16:
+json/json_spirit_writer_template.h: In function ‘String_type json_spirit::non_printable_to_string(unsigned int)’:
+json/json_spirit_writer_template.h:31:50: warning: typedef ‘Char_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename String_type::value_type Char_type;
+                                                  ^
+g++ -c -pthread -Wall -Wextra -Wno-sign-compare -Wno-invalid-offsetof -Wno-unused-parameter -Wformat -Wformat-security -g -DBOOST_SPIRIT_THREADSAFE -I/root/cointemplate/kmc/src -I/root/cointemplate/kmc/src/obj -DUSE_UPNP=0 -DHAVE_BUILD_INFO -fno-stack-protector -fstack-protector-all -Wstack-protector -Wl,-z,relro -Wl,-z,now -D_FORTIFY_SOURCE=2 -O2 -MMD -o obj/rpcdump.o rpcdump.cpp
+In file included from bitcoinrpc.h:15:0,
+                 from rpcdump.cpp:8:
+json/json_spirit_writer_template.h: In function ‘String_type json_spirit::non_printable_to_string(unsigned int)’:
+json/json_spirit_writer_template.h:31:50: warning: typedef ‘Char_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename String_type::value_type Char_type;
+                                                  ^
+g++ -c -pthread -Wall -Wextra -Wno-sign-compare -Wno-invalid-offsetof -Wno-unused-parameter -Wformat -Wformat-security -g -DBOOST_SPIRIT_THREADSAFE -I/root/cointemplate/kmc/src -I/root/cointemplate/kmc/src/obj -DUSE_UPNP=0 -DHAVE_BUILD_INFO -fno-stack-protector -fstack-protector-all -Wstack-protector -Wl,-z,relro -Wl,-z,now -D_FORTIFY_SOURCE=2 -O2 -MMD -o obj/script.o script.cpp
+g++ -c -pthread -Wall -Wextra -Wno-sign-compare -Wno-invalid-offsetof -Wno-unused-parameter -Wformat -Wformat-security -g -DBOOST_SPIRIT_THREADSAFE -I/root/cointemplate/kmc/src -I/root/cointemplate/kmc/src/obj -DUSE_UPNP=0 -DHAVE_BUILD_INFO -fno-stack-protector -fstack-protector-all -Wstack-protector -Wl,-z,relro -Wl,-z,now -D_FORTIFY_SOURCE=2 -O2 -MMD -o obj/util.o util.cpp
+g++ -c -pthread -Wall -Wextra -Wno-sign-compare -Wno-invalid-offsetof -Wno-unused-parameter -Wformat -Wformat-security -g -DBOOST_SPIRIT_THREADSAFE -I/root/cointemplate/kmc/src -I/root/cointemplate/kmc/src/obj -DUSE_UPNP=0 -DHAVE_BUILD_INFO -fno-stack-protector -fstack-protector-all -Wstack-protector -Wl,-z,relro -Wl,-z,now -D_FORTIFY_SOURCE=2 -O2 -MMD -o obj/wallet.o wallet.cpp
+In file included from bitcoinrpc.h:15:0,
+                 from wallet.cpp:13:
+json/json_spirit_writer_template.h: In function ‘String_type json_spirit::non_printable_to_string(unsigned int)’:
+json/json_spirit_writer_template.h:31:50: warning: typedef ‘Char_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename String_type::value_type Char_type;
+                                                  ^
+g++ -c -pthread -Wall -Wextra -Wno-sign-compare -Wno-invalid-offsetof -Wno-unused-parameter -Wformat -Wformat-security -g -DBOOST_SPIRIT_THREADSAFE -I/root/cointemplate/kmc/src -I/root/cointemplate/kmc/src/obj -DUSE_UPNP=0 -DHAVE_BUILD_INFO -fno-stack-protector -fstack-protector-all -Wstack-protector -Wl,-z,relro -Wl,-z,now -D_FORTIFY_SOURCE=2 -O2 -MMD -o obj/walletdb.o walletdb.cpp
+g++ -c -pthread -Wall -Wextra -Wno-sign-compare -Wno-invalid-offsetof -Wno-unused-parameter -Wformat -Wformat-security -g -DBOOST_SPIRIT_THREADSAFE -I/root/cointemplate/kmc/src -I/root/cointemplate/kmc/src/obj -DUSE_UPNP=0 -DHAVE_BUILD_INFO -fno-stack-protector -fstack-protector-all -Wstack-protector -Wl,-z,relro -Wl,-z,now -D_FORTIFY_SOURCE=2 -O2 -MMD -o obj/noui.o noui.cpp
+g++ -c -pthread -Wall -Wextra -Wno-sign-compare -Wno-invalid-offsetof -Wno-unused-parameter -Wformat -Wformat-security -g -DBOOST_SPIRIT_THREADSAFE -I/root/cointemplate/kmc/src -I/root/cointemplate/kmc/src/obj -DUSE_UPNP=0 -DHAVE_BUILD_INFO -fno-stack-protector -fstack-protector-all -Wstack-protector -Wl,-z,relro -Wl,-z,now -D_FORTIFY_SOURCE=2 -O2 -MMD -o obj/kernel.o kernel.cpp
+g++ -c -pthread -Wall -Wextra -Wno-sign-compare -Wno-invalid-offsetof -Wno-unused-parameter -Wformat -Wformat-security -g -DBOOST_SPIRIT_THREADSAFE -I/root/cointemplate/kmc/src -I/root/cointemplate/kmc/src/obj -DUSE_UPNP=0 -DHAVE_BUILD_INFO -fno-stack-protector -fstack-protector-all -Wstack-protector -Wl,-z,relro -Wl,-z,now -D_FORTIFY_SOURCE=2 -O2 -MMD -o obj/distribution.o distribution.cpp
+In file included from bitcoinrpc.h:15:0,
+                 from distribution.cpp:2:
+json/json_spirit_writer_template.h: In function ‘String_type json_spirit::non_printable_to_string(unsigned int)’:
+json/json_spirit_writer_template.h:31:50: warning: typedef ‘Char_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename String_type::value_type Char_type;
+                                                  ^
+g++ -pthread -Wall -Wextra -Wno-sign-compare -Wno-invalid-offsetof -Wno-unused-parameter -Wformat -Wformat-security -g -DBOOST_SPIRIT_THREADSAFE -I/root/cointemplate/kmc/src -I/root/cointemplate/kmc/src/obj -DUSE_UPNP=0 -DHAVE_BUILD_INFO -fno-stack-protector -fstack-protector-all -Wstack-protector -Wl,-z,relro -Wl,-z,now -D_FORTIFY_SOURCE=2 -O2 -rdynamic -o kmcd obj/scanbalance.o obj/version.o obj/checkpoints.o obj/netbase.o obj/addrman.o obj/crypter.o obj/key.o obj/db.o obj/init.o obj/irc.o obj/keystore.o obj/main.o obj/net.o obj/protocol.o obj/bitcoinrpc.o obj/rpcdump.o obj/script.o obj/util.o obj/wallet.o obj/walletdb.o obj/noui.o obj/kernel.o obj/distribution.o   -Wl,-Bdynamic -l boost_system -l boost_filesystem -l boost_program_options -l boost_thread -l db_cxx -l ssl -l crypto -l rt -l miniupnpc -Wl,-Bdynamic -l z -l dl -l pthread
